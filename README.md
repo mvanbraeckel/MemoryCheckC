@@ -6,7 +6,7 @@ For C programs: this checks and alerts the user of any allocated memory not bein
 Use the makefile to compile and view the executable file names to actually run the programs
 
 # main.c
-    Tester to show functionality of the memory checker program
+Tester to show functionality of the memory checker program
     
 # memcheck.c
-    Redefines malloc, calloc, realloc, free, and main function to memcheck versions, thus allowing it to use a linked list structure to keep track of memory allocations and provide file and line number for errors with memory allocation and freeing.
+Redefines malloc, calloc, realloc, free, and main function to memcheck versions, thus allowing it to use a linked list structure to keep track of memory allocations and provide file and line number for errors with memory allocation and freeing.
